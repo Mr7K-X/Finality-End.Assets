@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="worlds.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="worlds basic0000" x="10" y="10" width="389" height="389"/>
+	<SubTexture name="worlds white0000" x="409" y="10" width="389" height="389"/>
+	<SubTexture name="worlds white0001" x="409" y="10" width="389" height="389"/>
+</TextureAtlas>

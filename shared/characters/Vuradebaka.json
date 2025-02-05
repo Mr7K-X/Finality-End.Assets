@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "NMI Vurado Front idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "NMI Vurado Front left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				-108
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "NMI Vurado Front down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "NMI Vurado Front up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "NMI Vurado Front right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sasas",
+			"fps": 24,
+			"name": "NMI Vurado Front appear",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sasas1",
+			"fps": 24,
+			"name": "NMI Vurado Front phrase",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/NMI Vurado Front",
+	"position": [
+		-240,
+		-500
+	],
+	"healthicon": "vanessasusssy",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		1,
+		75
+	],
+	"camera_position": [
+		-672,
+		-190
+	],
+	"sing_duration": 4,
+	"scale": 1.8,
+	"_editor_isPlayer": false
+}
