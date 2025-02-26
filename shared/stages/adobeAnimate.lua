@@ -66,3 +66,16 @@ function onCreate()
 
 
 end
+
+function onStepHit()
+    if curStep == 1 then
+        doTweenAlpha('Awall', 'Awall', 0, 0.1, 'linear')
+    end
+    if curStep == 128 then
+        doTweenAlpha('Awall', 'Awall', 1, 0.1, 'linear')
+    end
+		if curStep == 184 then
+			doTweenAngle("angle", "camGame", 360, 1.3, "circIn")
+			doTweenZoom("zoom", "camGame", 0.9, 1.2, "circIn")
+	end
+end

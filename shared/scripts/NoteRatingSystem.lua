@@ -132,3 +132,6 @@ function onUpdate()
     setProperty('ratingText.x', ratingTextX)
     setProperty('comboTextThing.x', ratingTextX)
 end
+
+setTextFont('ratingText', 'Blackcraft.ttf')
+setTextFont('comboTextThing', 'Blackcraft.ttf')
