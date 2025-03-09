@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-taf_cc_icons.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="losing icon animation0000" x="0" y="0" width="129" height="150" pivotX="23.25" pivotY="4.45" frameX="-23" frameY="-4" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="losing icon animation0001" x="129" y="0" width="130" height="157" frameX="-23" frameY="0" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="losing icon animation0002" x="259" y="0" width="136" height="155" frameX="-20" frameY="-4" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="losing icon animation0003" x="395" y="0" width="138" height="152" frameX="-16" frameY="-4" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="losing icon animation0004" x="0" y="0" width="129" height="150" frameX="-23" frameY="-4" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="losing icon animation0005" x="533" y="0" width="172" height="157" frameX="0" frameY="0" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="losing icon animation0006" x="705" y="0" width="161" height="155" frameX="-12" frameY="-4" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="losing icon animation0007" x="866" y="0" width="152" height="152" frameX="-16" frameY="-4" frameWidth="173" frameHeight="159"/>
+	<SubTexture name="neutral icon0000" x="0" y="157" width="163" height="150" pivotX="0" pivotY="0"/>
+	<SubTexture name="winning icon0000" x="163" y="157" width="159" height="150" pivotX="3.45" pivotY="3.65" frameX="-3" frameY="-3" frameWidth="166" frameHeight="157"/>
+	<SubTexture name="winning icon0001" x="322" y="157" width="166" height="157"/>
+</TextureAtlas>
