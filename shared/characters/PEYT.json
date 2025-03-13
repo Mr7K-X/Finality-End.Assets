@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				82,
+				-65
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				82,
+				-220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "peyt down"
+		},
+		{
+			"offsets": [
+				62,
+				-48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "peyt up"
+		},
+		{
+			"offsets": [
+				77,
+				-67
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "peyt right"
+		},
+		{
+			"offsets": [
+				96,
+				-61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "peyt left"
+		},
+		{
+			"offsets": [
+				86,
+				-208
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "missD"
+		},
+		{
+			"offsets": [
+				60,
+				-47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "missU"
+		},
+		{
+			"offsets": [
+				98,
+				-49
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "missL"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				75,
+				-58
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "missR",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/PEYTON",
+	"position": [
+		180,
+		-60
+	],
+	"healthicon": "icon-PEYT",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		175,
+		55
+	],
+	"camera_position": [
+		130,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

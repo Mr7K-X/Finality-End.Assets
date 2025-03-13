@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-slava.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle icon0000" x="10" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0001" x="10" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0002" x="10" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0003" x="148" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0004" x="148" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0005" x="148" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0006" x="286" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0007" x="286" y="10" width="128" height="131"/>
+	<SubTexture name="idle icon0008" x="286" y="10" width="128" height="131"/>
+	<SubTexture name="losing icon animation0000" x="10" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0001" x="10" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0002" x="10" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0003" x="159" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0004" x="159" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0005" x="159" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0006" x="308" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0007" x="308" y="151" width="139" height="136"/>
+	<SubTexture name="losing icon animation0008" x="308" y="151" width="139" height="136"/>
+	<SubTexture name="winning icon0000" x="10" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0001" x="10" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0002" x="10" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0003" x="156" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0004" x="156" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0005" x="156" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0006" x="302" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0007" x="302" y="297" width="136" height="137"/>
+	<SubTexture name="winning icon0008" x="302" y="297" width="136" height="137"/>
+</TextureAtlas>
