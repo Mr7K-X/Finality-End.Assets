@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				138,
 				-30
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				48,
 				-113
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				88,
 				77
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				94,
 				23
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		}
 	],
 	"vocals_file": "",
@@ -63,7 +63,7 @@
 		-20,
 		270
 	],
-	"healthicon": "slava",
+	"healthicon": "icon-slava2legendarniysikvel",
 	"flip_x": false,
 	"healthbar_colors": [
 		19,

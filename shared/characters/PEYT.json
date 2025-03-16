@@ -101,7 +101,7 @@
 		}
 	],
 	"vocals_file": "",
-	"no_antialiasing": true,
+	"no_antialiasing": false,
 	"image": "characters/PEYTON",
 	"position": [
 		180,
