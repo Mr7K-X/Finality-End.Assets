@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "bffreak",
 		"notes": [
 			{
 				"sectionBeats": 4,
@@ -7315,7 +7315,7 @@
 				"bpm": 175
 			}
 		],
-		"player2": "omnibi",
+		"player2": "bffreak",
 		"event7Value": null,
 		"splashSkin": "noteSplashes",
 		"song": "triability",
