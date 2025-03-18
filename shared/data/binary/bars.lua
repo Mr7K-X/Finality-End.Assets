@@ -31,14 +31,10 @@ end
 
 function onEndSong()
   setTaskbarVisible(true)
-    -- song ended/starting transition (Will be delayed if you're unlocking an achievement)
-    -- return Function_Stop to stop the song from ending for playing a cutscene or something.
     return Function_Continue;
 end
 
 function onGameOver()
     setTaskbarVisible(true)
-      -- song ended/starting transition (Will be delayed if you're unlocking an achievement)
-      -- return Function_Stop to stop the song from ending for playing a cutscene or something.
       return Function_Continue;
   end
