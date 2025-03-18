@@ -1,7 +1,7 @@
 videoMP4 = 'cut1'; --вставь видео.mp4 (1280x720)
 clickSound = 'confirmMenu'; --звук enter'a
 soundVolume = 1.0;
-imagePNG = 'touchYourPenis2'; --превью предупреждения
+imagePNG = 'screen/touchYourPenis2'; --превью предупреждения
 textSettings = {
     x = 325,
     y = 595,

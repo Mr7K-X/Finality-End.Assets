@@ -1,7 +1,7 @@
 videoMP4 = 'cut1'; --вставь видео.mp4 (1280x720)
 clickSound = 'confirmMenu'; --звук enter'a
 soundVolume = 1.0;
-imagePNG = 'touchYourPenis4'; --превью предупреждения
+imagePNG = 'screen/touchYourPenis4'; --превью предупреждения
 textSettings = {
     x = -125,
     y = 595,
@@ -39,12 +39,12 @@ function onCreatePost()
         setObjectCamera('preview', 'camOther');
         setGraphicSize('preview', screenWidth, screenHeight);
         addLuaSprite('preview', true);
-    
+
         makeLuaSprite('blackfuck');
         makeGraphic('blackfuck', screenWidth, screenHeight, '000000');
         setObjectCamera('blackfuck', 'camOther');
         addLuaSprite('blackfuck', true);
-    
+
         makeLuaText('pressTxt','Press Enter to Begin',1000,textSettings.x,textSettings.y)
         setTextFont('pressTxt','vcr.ttf')
         setTextSize('pressTxt',textSettings.size);
