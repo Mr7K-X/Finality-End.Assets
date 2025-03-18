@@ -22,23 +22,23 @@ local del2 = 0;
 
 function onCreate()
 	-- background shit
-	makeLuaSprite('Aroom', 'si/Aroom', -1675, -950);
+	makeLuaSprite('Aroom', 'bgsongs/si/Aroom', -1675, -950);
 	setScrollFactor('Aroom', 1, 1);
 	scaleObject('Aroom', 1.75, 1.75);
 
-	makeLuaSprite('Awall', 'si/Awall', -1675, -950);
+	makeLuaSprite('Awall', 'bgsongs/si/Awall', -1675, -950);
 	setScrollFactor('Awall', 1, 1);
 	scaleObject('Awall', 1.75, 1.75);
 
-	makeLuaSprite('Al', 'si/Al', -1675, -950);
+	makeLuaSprite('Al', 'bgsongs/si/Al', -1675, -950);
 	setScrollFactor('Al', 1.35, 1.1);
 	scaleObject('Al', 1.75, 1.75);
 
-	makeLuaSprite('Ar', 'si/Ar', -1675, -950);
+	makeLuaSprite('Ar', 'bgsongs/si/Ar', -1675, -950);
 	setScrollFactor('Ar', 1.15, 1.05);
 	scaleObject('Ar', 1.75, 1.75);
 
-	makeLuaSprite('Abg', 'si/Abg', -960, -540);
+	makeLuaSprite('Abg', 'bgsongs/si/Abg', -960, -540);
 	setScrollFactor('Abg', 0, 0);
 	scaleObject('Abg', 1.2, 1.2);
 	-- sprites that only load if Low Quality is turned off

@@ -3,15 +3,15 @@ local y = -165
 
 function onCreate()
     createInstance('bgbin', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
-    loadGraphic('bgbin', 'destroy/bin')
+    loadGraphic('bgbin', 'bgsongs/destroy/bin')
     setProperty('bgbin.velocity.x', 50)
     setProperty('bgbin.y', 100)
     addInstance('bgbin', false)
 
-    makeLuaSprite("d", "destroy/ey", -700, -165)
+    makeLuaSprite("d", "bgsongs/destroy/ey", -700, -165)
     addLuaSprite("d", false)
 
-    makeLuaSprite("b", "destroy/UG", -700, -165)
+    makeLuaSprite("b", "bgsongs/destroy/UG", -700, -165)
     addLuaSprite("b", false)
 end
 function onStepHit()
