@@ -2,19 +2,23 @@
 	"storyName": "",
 	"difficulties": "hard",
 	"hideFreeplay": false,
-	"weekBackground": "week-hell",
-	"weekBefore": "week2",
+	"weekBackground": "finale",
 	"freeplayColor": [
 		128,
 		0,
 		128
 	],
+	"weekBefore": "",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
-			"newfriend",
-			"vuradorb",
+			"69buckers",
+			"endgameshiorii",
 			[
 				128,
 				0,
@@ -22,7 +26,7 @@
 			]
 		],
 		[
-			"emprsus",
+			"faceoff",
 			"endgameshiorii",
 			[
 				128,
@@ -31,11 +35,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "fire"
+	"hideStoryMode": false,
+	"weekName": "pico's gun",
+	"hiddenUntilUnlocked": false
 }
