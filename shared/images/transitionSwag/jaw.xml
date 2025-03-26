@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jaw.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="jaw0000" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="jaw0001" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="jaw0002" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="jaw0003" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="jaw0004" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="jaw0005" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="jaw0006" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="jaw0007" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="jaw0008" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="jaw0009" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="jaw0010" x="2575" y="730" width="1280" height="720"/>
+	<SubTexture name="jaw0011" x="5" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0012" x="5" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0013" x="1290" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0014" x="1290" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0015" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0016" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0017" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0018" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0019" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0020" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0021" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0022" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0023" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="jaw0024" x="2575" y="1455" width="1280" height="720"/>
+</TextureAtlas>
