@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="screens.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="screens0000" x="10" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0001" x="10" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0002" x="10" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0003" x="10" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0004" x="1585" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0005" x="1585" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0006" x="1585" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0007" x="1585" y="10" width="1565" height="921"/>
+	<SubTexture name="screens0008" x="10" y="941" width="1565" height="921"/>
+	<SubTexture name="screens0009" x="10" y="941" width="1565" height="921"/>
+	<SubTexture name="screens0010" x="10" y="941" width="1565" height="921"/>
+	<SubTexture name="screens0011" x="10" y="941" width="1565" height="921"/>
+	<SubTexture name="screens0012" x="1585" y="941" width="1565" height="921"/>
+	<SubTexture name="screens0013" x="1585" y="941" width="1565" height="921"/>
+	<SubTexture name="screens0014" x="1585" y="941" width="1565" height="921"/>
+	<SubTexture name="screens0015" x="1585" y="941" width="1565" height="921"/>
+</TextureAtlas>
