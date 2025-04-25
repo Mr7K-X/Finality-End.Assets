@@ -6,20 +6,20 @@ function onCreate()
     loadGraphic('e', 'bgsongs/bbsfc/bg')
     scaleObject('e', 2.8, 2.8);
     setProperty('e.velocity.x', -100)
-    setProperty('e.y', -500)
+    setProperty('e.y', -1000)
 
 
     createInstance('e1', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 100, 100})
     loadGraphic('e1', 'bgsongs/bbsfc/cloud')
     scaleObject('e1', 2.8, 2.8);
-    setProperty('e1.velocity.x', -500)
-    setProperty('e1.y', -300)
+    setProperty('e1.velocity.x', -100)
+    setProperty('e1.y', -400)
 
     createInstance('31', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 100, 100})
     loadGraphic('31', 'bgsongs/bbsfc/cloud')
     scaleObject('31', 2.8, 2.8);
     setProperty('31.velocity.x', -300)
-    setProperty('31.y', -100)
+    setProperty('31.y', -800)
 
     createInstance('312', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
     loadGraphic('312', 'bgsongs/bbsfc/smoke')
@@ -51,8 +51,12 @@ function onCreate()
     setScrollFactor('6', 1, 1);
     scaleObject('6', 2.8, 2.8);
 
+    makeLuaSprite("7","bgsongs/bbsfc/town",x, -1000)
+    setScrollFactor('7', 1, 1);
+    scaleObject('7', 2.8, 2.8);
 
     addInstance('e', false)
+    addLuaSprite("7",false)
     addInstance("31",false)
     addInstance("312",false)
     addInstance('e1', false)
