@@ -3,6 +3,6 @@ function onCreate()
     end
     function onStepHit()
     if curStep == 1 then
-    doTweenAlpha('blackTween','blackS', 0, 18, 'quadIn')
+    doTweenAlpha('blackTween','blackS', 0, 15, 'quadIn')
     end
     end
