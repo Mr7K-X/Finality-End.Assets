@@ -33,6 +33,7 @@ function onCreate()
     setScrollFactor('1', 1, 1);
     scaleObject('1', 2.8, 2.8);
 
+
     makeLuaSprite("4","bgsongs/bbsfc/smoke",x, -1000)
     setScrollFactor('4', 1, 1);
     scaleObject('4', 2.8, 2.8);
@@ -46,12 +47,19 @@ function onCreate()
     setScrollFactor('3', 1, 1);
     scaleObject('3', 2.8, 2.8);
 
+    makeLuaSprite("6","bgsongs/bbsfc/par",x, -1000)
+    setScrollFactor('6', 1, 1);
+    scaleObject('6', 2.8, 2.8);
+
 
     addInstance('e', false)
-    addLuaSprite("31",false)
-    addLuaSprite("312",false)
+    addInstance("31",false)
+    addInstance("312",false)
     addInstance('e1', false)
+
     addLuaSprite("1",false)
     addLuaSprite("2",false)
     addLuaSprite("3",false)
+    addLuaSprite("6",true)
+
 end

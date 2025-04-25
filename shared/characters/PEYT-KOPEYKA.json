@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				200,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				193,
+				44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				201,
+				53
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				205,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				195,
+				69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				136,
+				38
+			],
+			"anim": "khekhe",
+			"fps": 24,
+			"name": "cough",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				194,
+				44
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				205,
+				55
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				206,
+				-3
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				196,
+				72
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/PEYT",
+	"position": [
+		140,
+		-20
+	],
+	"healthicon": "scorpion",
+	"flip_x": true,
+	"healthbar_colors": [
+		227,
+		207,
+		65
+	],
+	"camera_position": [
+		250,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

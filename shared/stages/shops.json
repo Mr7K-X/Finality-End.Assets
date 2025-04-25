@@ -4,20 +4,20 @@
 	"isPixelStage": false,
 	"boyfriend": [
 		1370,
-		100
+		150
 	],
 	"girlfriend": [
-		750,
+		770,
 		50
 	],
 	"opponent": [
 		200,
-		100
+		150
 	],
 	"hide_girlfriend": false,
 	"camera_boyfriend": [
 		-100,
-		-100
+		-200
 	],
 	"camera_opponent": [
 		0,
