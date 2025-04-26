@@ -51,11 +51,19 @@ function onCreate()
     setScrollFactor('6', 1, 1);
     scaleObject('6', 2.8, 2.8);
 
-    makeLuaSprite("7","bgsongs/bbsfc/town",x, -1000)
-    setScrollFactor('7', 1, 1);
+    makeLuaSprite("8","bgsongs/bbsfc/town",x, -1000)
+    setScrollFactor('8', 1, 1);
+    scaleObject('8', 2.8, 2.8);
+
+
+    createInstance('7', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
+    loadGraphic('7', 'bgsongs/bbsfc/smoke')
     scaleObject('7', 2.8, 2.8);
+    setProperty('7.velocity.x', -500)
+    setProperty('7.y', -1500)
 
     addInstance('e', false)
+    addLuaSprite("8",false)
     addLuaSprite("7",false)
     addInstance("31",false)
     addInstance("312",false)
