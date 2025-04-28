@@ -60,3 +60,16 @@ function onMoveCamera(focus)
 	end
 end
 
+
+function onCreate()
+	makeLuaSprite('blackScreen', '', 0, 0)
+	makeGraphic('blackScreen', screenWidth, screenHeight, '000000')
+	setObjectCamera('blackScreen', 'other')
+	addLuaSprite('blackScreen', true)
+	setProperty('blackScreen.alpha', 1)
+end
+
+function onSongStart()
+	doTweenAlpha('fadeBlack', 'blackScreen', 0, 12, 'linear')
+end
+

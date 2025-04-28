@@ -1,26 +1,26 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-126,
 				-181
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceLeft",
-			"indices": [],
-			"name": "left"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-147,
 				-180
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceRight",
-			"indices": [],
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -38,8 +38,8 @@
 		77
 	],
 	"camera_position": [
-		0,
-		0
+		200,
+		100
 	],
 	"sing_duration": 4,
 	"scale": 0.8,

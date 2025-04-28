@@ -1,13 +1,13 @@
 {
 	"song": {
-		"player1": "PEYT",
-		"player2": "GREEN",
+		"player1": "PEYT-KOPEYKA",
+		"player2": "GREEN-KOPEYKA",
 		"events": [],
 		"notes": [
 			{
 				"sectionNotes": [],
 				"sectionBeats": 4,
-				"gfSection": false,
+				"gfSection": true,
 				"altAnim": false,
 				"bpm": 150,
 				"changeBPM": false,
@@ -16,7 +16,7 @@
 			{
 				"sectionNotes": [],
 				"sectionBeats": 4,
-				"gfSection": false,
+				"gfSection": true,
 				"altAnim": false,
 				"bpm": 150,
 				"changeBPM": false,
@@ -25,7 +25,7 @@
 			{
 				"sectionNotes": [],
 				"sectionBeats": 4,
-				"gfSection": false,
+				"gfSection": true,
 				"altAnim": false,
 				"bpm": 150,
 				"changeBPM": false,
@@ -34,7 +34,7 @@
 			{
 				"sectionNotes": [],
 				"sectionBeats": 4,
-				"gfSection": false,
+				"gfSection": true,
 				"altAnim": false,
 				"bpm": 150,
 				"changeBPM": false,
@@ -3736,7 +3736,7 @@
 		"gfVersion": "kids",
 		"song": "BoobsFuck",
 		"needsVoices": true,
-		"stage": "dicksee",
+		"stage": "shops",
 		"bpm": 150,
 		"speed": 2.8
 	}
