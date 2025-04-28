@@ -83,3 +83,7 @@ function onStepHit()
         doTweenZoom('cameraZoomOut', 'camGame', 1, 0.5, 'quadOut')
     end
 end
+
+function onUpdatePost(elapsed)
+    setProperty('iconP1.x', getMidpointX('healthBar')+228); setProperty('iconP2.x', getMidpointX('healthBar')-372)
+end
