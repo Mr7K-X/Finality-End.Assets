@@ -28,6 +28,13 @@ function onCreate()
     setProperty('312.y', -1000)
 
 
+    createInstance('3121', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
+    loadGraphic('3121', 'bgsongs/bbsfc/2smoke')
+    scaleObject('3121', 2.8, 2.8);
+    setProperty('3121.velocity.x', -300)
+    setProperty('3121.y', -1000)
+    setProperty('3121.alpha', 0.5)
+
 
     makeLuaSprite("1","bgsongs/bbsfc/poll",x, -1000)
     setScrollFactor('1', 1, 1);
@@ -41,6 +48,10 @@ function onCreate()
     makeLuaSprite("2","bgsongs/bbsfc/sexshop",x, -1000)
     setScrollFactor('2', 1, 1);
     scaleObject('2', 2.8, 2.8);
+
+    makeLuaSprite("21","bgsongs/bbsfc/shadow",x, -1000)
+    setScrollFactor('21', 1, 1);
+    scaleObject('21', 2.8, 2.8);
 
 
     makeLuaSprite("3","bgsongs/bbsfc/lest",x, -1000)
@@ -73,14 +84,25 @@ function onCreate()
     addLuaSprite("2",false)
     addLuaSprite("3",false)
     addLuaSprite("6",true)
+    addInstance("3121",true)
+    addLuaSprite("21",false)
 
 end
 function onStepHit()
+    if curStep == 1 then
+        doTweenAlpha('21', '21', 0, 0.1, 'linear')
+    end
     if curStep == 1 then
         doTweenZoom('cameraZoomOut', 'camGame', 0.55, 6, 'quadOut')
     end
     if curStep == 64 then
         doTweenZoom('cameraZoomOut', 'camGame', 1, 0.5, 'quadOut')
+    end
+    if curStep == 590 then
+        doTweenAlpha('21', '21', 1, 0.1, 'linear')
+    end
+    if curStep == 752 then
+        doTweenAlpha('21', '21', 0, 0.1, 'linear')
     end
 end
 

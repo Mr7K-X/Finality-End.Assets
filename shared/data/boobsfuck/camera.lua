@@ -70,6 +70,6 @@ function onCreate()
 end
 
 function onSongStart()
-	doTweenAlpha('fadeBlack', 'blackScreen', 0, 12, 'linear')
+	doTweenAlpha('fadeBlack', 'blackScreen', 0, 6, 'linear')
 end
 
