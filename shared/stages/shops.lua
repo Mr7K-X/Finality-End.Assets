@@ -77,7 +77,7 @@ function onCreate()
 end
 function onStepHit()
     if curStep == 1 then
-        doTweenZoom('cameraZoomOut', 'camGame', 0.55, 10, 'quadOut')
+        doTweenZoom('cameraZoomOut', 'camGame', 0.55, 6, 'quadOut')
     end
     if curStep == 64 then
         doTweenZoom('cameraZoomOut', 'camGame', 1, 0.5, 'quadOut')
