@@ -75,3 +75,8 @@ function onCreate()
     addLuaSprite("6",true)
 
 end
+function onStepHit()
+    if curStep == 10 then
+        doTweenZoom('cameraZoomOut', 'camGame', 0.5, 10, 'quadOut')
+    end
+end

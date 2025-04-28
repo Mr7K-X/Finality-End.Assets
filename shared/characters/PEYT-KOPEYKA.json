@@ -109,6 +109,50 @@
 			"fps": 24,
 			"name": "up",
 			"indices": []
+		},
+		{
+			"offsets": [
+				196,
+				72
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "R-miss"
+		},
+		{
+			"offsets": [
+				203,
+				130
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "L-miss"
+		},
+		{
+			"offsets": [
+				208,
+				60
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "D-miss"
+		},
+		{
+			"offsets": [
+				200,
+				143
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "U-miss"
 		}
 	],
 	"vocals_file": "",
@@ -116,7 +160,7 @@
 	"image": "characters/PEYT",
 	"position": [
 		140,
-		-20
+		-40
 	],
 	"healthicon": "scorpion",
 	"flip_x": true,
