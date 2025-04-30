@@ -73,3 +73,35 @@ function onSongStart()
 	doTweenAlpha('fadeBlack', 'blackScreen', 0, 6, 'linear')
 end
 
+function onSongStart()
+	doTweenAlpha('fadeBlack', 'blackScreen', 0, 6, 'linear')
+
+	makeLuaSprite('blackFlash', '', 0, 0)
+	makeGraphic('blackFlash', 1280, 720, '000000')
+	setObjectCamera('blackFlash', 'hud')
+	setProperty('blackFlash.alpha', 0)
+	addLuaSprite('blackFlash', true)
+end
+
+
+
+function triggerBlackFlash(duration)
+
+	setProperty('blackFlash.alpha', 1)
+	doTweenAlpha('blackFlashOut', 'blackFlash', 0, duration, 'linear')
+end
+
+function onStepHit()
+
+	if curStep == 590  then
+			triggerBlackFlash(0.7)
+	end
+	if curStep == 671  then
+		triggerBlackFlash(0.7)
+end
+if curStep == 752  then
+	triggerBlackFlash(0.7)
+end
+end
+
+

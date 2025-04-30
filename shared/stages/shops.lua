@@ -28,17 +28,14 @@ function onCreate()
     setProperty('312.y', -1000)
 
 
-    createInstance('3121', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
-    loadGraphic('3121', 'bgsongs/bbsfc/2smoke')
-    scaleObject('3121', 2.8, 2.8);
-    setProperty('3121.velocity.x', -300)
-    setProperty('3121.y', -1000)
-    setProperty('3121.alpha', 0.5)
+
 
 
     makeLuaSprite("1","bgsongs/bbsfc/poll",x, -1000)
     setScrollFactor('1', 1, 1);
     scaleObject('1', 2.8, 2.8);
+
+
 
 
     makeLuaSprite("4","bgsongs/bbsfc/smoke",x, -1000)
@@ -53,6 +50,20 @@ function onCreate()
     setScrollFactor('21', 1, 1);
     scaleObject('21', 2.8, 2.8);
 
+    makeLuaSprite("idk","bgsongs/bbsfc/zanaves3",x, -900)
+    setScrollFactor('idk', 1, 1);
+    scaleObject('idk', 2.8, 2.8);
+
+
+    makeLuaSprite("idk2","bgsongs/bbsfc/zanaves2",x, -1000)
+    setScrollFactor('idk2', 1, 1);
+    scaleObject('idk2', 2.8, 2.8);
+
+
+    makeLuaSprite("idk3","bgsongs/bbsfc/zanaves1",x, -1000)
+    setScrollFactor('idk3', 1, 1);
+    scaleObject('idk3', 2.8, 2.8);
+
 
     makeLuaSprite("3","bgsongs/bbsfc/lest",x, -1000)
     setScrollFactor('3', 1, 1);
@@ -66,6 +77,12 @@ function onCreate()
     setScrollFactor('8', 1, 1);
     scaleObject('8', 2.8, 2.8);
 
+    createInstance('3121', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
+    loadGraphic('3121', 'bgsongs/bbsfc/2smoke')
+    scaleObject('3121', 2.8, 2.8);
+    setProperty('3121.velocity.x', -300)
+    setProperty('3121.y', -1000)
+    setProperty('3121.alpha', 0.3)
 
     createInstance('7', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
     loadGraphic('7', 'bgsongs/bbsfc/smoke')
@@ -84,13 +101,20 @@ function onCreate()
     addLuaSprite("2",false)
     addLuaSprite("3",false)
     addLuaSprite("6",true)
-    addInstance("3121",true)
+
     addLuaSprite("21",false)
+    addLuaSprite("idk",true)
+    addLuaSprite("idk2",true)
+    addLuaSprite("idk3",true)
+    addInstance("3121",true)
 
 end
 function onStepHit()
     if curStep == 1 then
         doTweenAlpha('21', '21', 0, 0.1, 'linear')
+        doTweenAlpha('idk', 'idk', 0, 0.1, 'linear')
+        doTweenAlpha('idk2', 'idk2', 0, 0.1, 'linear')
+        doTweenAlpha('idk3', 'idk3', 0, 0.1, 'linear')
     end
     if curStep == 1 then
         doTweenZoom('cameraZoomOut', 'camGame', 0.55, 6, 'quadOut')
@@ -99,10 +123,18 @@ function onStepHit()
         doTweenZoom('cameraZoomOut', 'camGame', 1, 0.5, 'quadOut')
     end
     if curStep == 590 then
-        doTweenAlpha('21', '21', 1, 0.1, 'linear')
+        doTweenAlpha('21', '21', 1, 0.01, 'linear')
+        doTweenAlpha('idk', 'idk', 1, 0.01, 'linear')
+        doTweenAlpha('idk3', 'idk3', 1, 0.01, 'linear')
+    end
+    if curStep == 671 then
+        doTweenAlpha('idk2', 'idk2', 1, 0.01, 'linear')
     end
     if curStep == 752 then
-        doTweenAlpha('21', '21', 0, 0.1, 'linear')
+        doTweenAlpha('21', '21', 0, 0.01, 'linear')
+        doTweenAlpha('idk', 'idk', 0, 0.01, 'linear')
+        doTweenAlpha('idk2', 'idk2', 0, 0.01, 'linear')
+        doTweenAlpha('idk3', 'idk3', 0, 0.01, 'linear')
     end
 end
 
