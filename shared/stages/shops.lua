@@ -77,12 +77,7 @@ function onCreate()
     setScrollFactor('8', 1, 1);
     scaleObject('8', 2.8, 2.8);
 
-    createInstance('3121', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
-    loadGraphic('3121', 'bgsongs/bbsfc/2smoke')
-    scaleObject('3121', 2.8, 2.8);
-    setProperty('3121.velocity.x', -300)
-    setProperty('3121.y', -1000)
-    setProperty('3121.alpha', 0.3)
+
 
     createInstance('7', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
     loadGraphic('7', 'bgsongs/bbsfc/smoke')
@@ -106,7 +101,7 @@ function onCreate()
     addLuaSprite("idk",true)
     addLuaSprite("idk2",true)
     addLuaSprite("idk3",true)
-    addInstance("3121",true)
+
 
 end
 function onStepHit()
@@ -135,6 +130,10 @@ function onStepHit()
         doTweenAlpha('idk', 'idk', 0, 0.01, 'linear')
         doTweenAlpha('idk2', 'idk2', 0, 0.01, 'linear')
         doTweenAlpha('idk3', 'idk3', 0, 0.01, 'linear')
+    end
+    if curStep == 577 then
+        doTweenAngle("angle", "camGame", 360, 1.3, "circIn")
+        doTweenZoom("zoom", "camGame", 0.9, 1.2, "circIn")
     end
 end
 
