@@ -56,7 +56,7 @@ function onMoveCamera(focus)
 	setProperty('defaultCamZoom', 0.5)
 	end
 	if focus == 'boyfriend' then
-	setProperty('defaultCamZoom', 0.55)
+	setProperty('defaultCamZoom', 0.6)
 	end
 end
 
