@@ -1,15 +1,15 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				-128,
 				-47
 			],
-			"indices": [],
-			"fps": 8,
 			"anim": "idle",
-			"loop": true,
-			"name": "idle"
+			"fps": 8,
+			"name": "idle",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -20,7 +20,7 @@
 		0
 	],
 	"healthicon": "gf",
-	"flip_x": true,
+	"flip_x": false,
 	"healthbar_colors": [
 		165,
 		0,
