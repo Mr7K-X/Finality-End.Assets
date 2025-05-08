@@ -11,12 +11,7 @@ function onCreate()
         setProperty('camShaderVHS_game.visible', false)
         addLuaSprite('camShaderVHS_game')
 
-        makeLuaSprite('camShaderVHS_hud')
-        makeGraphic('camShaderVHS_hud', 1280, 720, '000000')
-        setSpriteShader('camShaderVHS_hud', 'vhs')
-        setObjectCamera('camShaderVHS_hud', 'hud')
-        setProperty('camShaderVHS_hud.visible', false)
-        addLuaSprite('camShaderVHS_hud')
+
 
         runHaxeCode([[
             game.camGame.setFilters([new ShaderFilter(game.getLuaObject('camShaderVHS_game').shader)]);
