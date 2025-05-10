@@ -125,10 +125,6 @@ function onStepHit()
         doTweenAlpha('idk2', 'idk2', 0, 0.01, 'linear')
         doTweenAlpha('idk3', 'idk3', 0, 0.01, 'linear')
     end
-    if curStep == 577 then
-        doTweenAngle("angle", "camGame", 360, 1.3, "circIn")
-        doTweenZoom("zoom", "camGame", 0.9, 1.2, "circIn")
-    end
 end
 
 function onUpdatePost(elapsed)

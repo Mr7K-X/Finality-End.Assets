@@ -2,7 +2,7 @@
 
 local judgementList = {
     sick = 'SICK!!',
-    good = 'GOOD',
+    good = 'NICE',
     bad = 'BAD',
     shit = 'SHIT'
 }
@@ -39,7 +39,7 @@ function popUpScore(index)
     startTween('comboTxtGrow', 'comboTxt.scale', {x = 0.95, y = 0.95}, 0.3, {ease = 'quadout'})
 
     for i, v in pairs(grpCombo) do
-        setTextFont(v, 'HelpMe.ttf')
+        setTextFont(v, 'SONICEXEransomFont.ttf')
         setProperty(v..'.antialiasing', aa)
         setObjectCamera(v, 'hud')
         addLuaText(v)

@@ -29,7 +29,7 @@ function onCreate()
         setShaderFloat('rainOverlay', 'iTimescale', 0.7)
     end
 
-    makeLuaSprite('4real', 'bgsongs/bbsfc/4realSprite')
+    makeLuaSprite('4real', 'bgsongs/bbsfc/4realSprite2')
     setObjectCamera('4real', 'hud')
     screenCenter('4real')
     addLuaSprite('4real', true)
