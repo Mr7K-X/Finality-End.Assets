@@ -28,7 +28,12 @@ function onCreate()
     setProperty('312.y', -1000)
 
 
-
+ createInstance('3121', 'flixel.addons.display.FlxBackdrop', {nil, 0x01, 0, 0})
+    loadGraphic('3121', 'bgsongs/bbsfc/smoke')
+    scaleObject('3121', 2.8, 2.8);
+    setProperty('3121.velocity.x', -300)
+    setProperty('3121.y', -1000)
+     setProperty('3121.alpha', 0.4)
 
 
     makeLuaSprite("1","bgsongs/bbsfc/poll",x, -1000)
@@ -90,6 +95,7 @@ function onCreate()
     addLuaSprite("6",true)
 
     addLuaSprite("21",false)
+
     addLuaSprite("idk",true)
     addLuaSprite("idk2",true)
     addLuaSprite("idk3",true)
@@ -98,10 +104,8 @@ function onCreate()
 end
 function onStepHit()
 
-    if curStep == 1 then
-        doTweenZoom('cameraZoomOut', 'camGame', 0.55, 6, 'quadOut')
-    end
-    if curStep == 64 then
+
+    if curStep == 60 then
         doTweenZoom('cameraZoomOut', 'camGame', 1, 0.5, 'quadOut')
     end
     if curStep == 1 then

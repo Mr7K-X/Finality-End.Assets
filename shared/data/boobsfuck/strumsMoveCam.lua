@@ -7,7 +7,7 @@ local cam,distance
 settings = {
     on = true, -- script status
     offset = 20, -- camera distance
-    speed = 3 -- camera speed
+    speed = 0.6 -- camera speed
 }
 
 function onUpdatePost(e)
