@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="KAKTUS.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kaktus0000" x="0" y="0" width="291" height="406"/>
+	<SubTexture name="transform0000" x="291" y="0" width="635" height="1139"/>
+	<SubTexture name="transform0001" x="926" y="0" width="635" height="1139"/>
+	<SubTexture name="transform0002" x="1561" y="0" width="635" height="1139"/>
+	<SubTexture name="transform0003" x="2196" y="0" width="635" height="1139"/>
+	<SubTexture name="transform0004" x="2831" y="0" width="635" height="1139"/>
+	<SubTexture name="transform0005" x="0" y="1139" width="635" height="1139"/>
+	<SubTexture name="transform0006" x="635" y="1139" width="635" height="1139"/>
+	<SubTexture name="transform0007" x="1270" y="1139" width="635" height="1139"/>
+	<SubTexture name="transform0008" x="1905" y="1139" width="635" height="1139"/>
+	<SubTexture name="transform0009" x="2540" y="1139" width="635" height="1139"/>
+	<SubTexture name="transform0010" x="3175" y="1139" width="635" height="1139"/>
+	<SubTexture name="transform0011" x="0" y="2278" width="635" height="1139"/>
+	<SubTexture name="transform0012" x="635" y="2278" width="635" height="1139"/>
+	<SubTexture name="transform0013" x="1270" y="2278" width="635" height="1139"/>
+</TextureAtlas>

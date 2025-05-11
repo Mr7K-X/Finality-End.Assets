@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				100,
+				52
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				68,
+				248
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-18,
+				166
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				198,
+				166
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-112,
+				-454
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "kaktus"
+		},
+		{
+			"offsets": [
+				37,
+				168
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "transform",
+			"loop": false,
+			"name": "transform"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/KAKTUS",
+	"position": [
+		-80,
+		-40
+	],
+	"healthicon": "icon-GREEN",
+	"flip_x": false,
+	"healthbar_colors": [
+		75,
+		207,
+		85
+	],
+	"camera_position": [
+		-10,
+		-250
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

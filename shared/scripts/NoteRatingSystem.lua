@@ -39,7 +39,7 @@ function popUpScore(index)
     startTween('comboTxtGrow', 'comboTxt.scale', {x = 0.95, y = 0.95}, 0.3, {ease = 'quadout'})
 
     for i, v in pairs(grpCombo) do
-        setTextFont(v, 'SONICEXEransomFont.ttf')
+        setTextFont(v, 'Blackcraft.ttf')
         setProperty(v..'.antialiasing', aa)
         setObjectCamera(v, 'hud')
         addLuaText(v)

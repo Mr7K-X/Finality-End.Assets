@@ -14,7 +14,7 @@
 		{
 			"offsets": [
 				193,
-				44
+				45
 			],
 			"loop": false,
 			"fps": 24,
@@ -25,7 +25,7 @@
 		{
 			"offsets": [
 				201,
-				53
+				54
 			],
 			"loop": false,
 			"fps": 24,
@@ -36,7 +36,7 @@
 		{
 			"offsets": [
 				205,
-				-5
+				-4
 			],
 			"loop": false,
 			"fps": 24,
@@ -47,7 +47,7 @@
 		{
 			"offsets": [
 				195,
-				69
+				72
 			],
 			"loop": false,
 			"fps": 24,
@@ -56,69 +56,14 @@
 			"name": "up"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				136,
-				38
-			],
-			"anim": "khekhe",
-			"fps": 24,
-			"name": "cough",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				194,
-				44
-			],
-			"anim": "singRIGHT-alt",
-			"fps": 24,
-			"name": "right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				205,
-				55
-			],
-			"anim": "singLEFT-alt",
-			"fps": 24,
-			"name": "left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				206,
-				-3
-			],
-			"anim": "singDOWN-alt",
-			"fps": 24,
-			"name": "down",
-			"indices": []
-		},
-		{
-			"loop": false,
 			"offsets": [
 				196,
 				72
 			],
-			"anim": "singUP-alt",
-			"fps": 24,
-			"name": "up",
-			"indices": []
-		},
-		{
-			"offsets": [
-				196,
-				72
-			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"loop": false,
+			"indices": [],
 			"name": "R-miss"
 		},
 		{
@@ -126,10 +71,10 @@
 				203,
 				130
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFTmiss",
-			"loop": false,
+			"indices": [],
 			"name": "L-miss"
 		},
 		{
@@ -137,10 +82,10 @@
 				208,
 				60
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWNmiss",
-			"loop": false,
+			"indices": [],
 			"name": "D-miss"
 		},
 		{
@@ -148,11 +93,33 @@
 				200,
 				143
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUPmiss",
-			"loop": false,
+			"indices": [],
 			"name": "U-miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				198,
+				50
+			],
+			"anim": "ahui",
+			"fps": 24,
+			"name": "ahui",
+			"indices": []
+		},
+		{
+			"offsets": [
+				231,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "smotri",
+			"loop": false,
+			"name": "smotri"
 		}
 	],
 	"vocals_file": "",

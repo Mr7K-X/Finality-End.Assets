@@ -10,7 +10,7 @@ function onCreatePost()
     --    hud pos
     if not downscroll then
         pos = -10
-        setProperty('healthBar.y', 725)
+        setProperty('healthBar.y', 580)
         setProperty('iconP2.y', 655)
         setProperty('iconP1.y', 655)
         setProperty('scoreTxt.y', 760)
