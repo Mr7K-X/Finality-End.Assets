@@ -17,7 +17,7 @@ function onCreatePost()
         setProperty('timeBar.y', -50)
         setProperty('timeTxt.y', -55)
     else
-        setProperty('healthBar.y', -5)
+        setProperty('healthBar.y', -140)
         setProperty('iconP2.y', -65)
         setProperty('iconP1.y', -75)
         setProperty('scoreTxt.y', 30)
@@ -44,3 +44,4 @@ end
 function onUpdatePost()
     runHaxeCode("game.camHUD.setScale(game.camHUD.zoom / 2, game.camHUD.zoom / 2);")
 end
+

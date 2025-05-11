@@ -1404,12 +1404,12 @@
 				]
 			],
 			[
-				124100,
+				40800,
 				[
 					[
-						"Add Camera Zoom",
-						"0.05",
-						"0.05"
+						"zoom",
+						"0.5",
+						""
 					]
 				]
 			]
@@ -2443,7 +2443,7 @@
 			{
 				"sectionNotes": [],
 				"sectionBeats": 4,
-				"gfSection": false,
+				"gfSection": true,
 				"altAnim": false,
 				"bpm": 150,
 				"changeBPM": false,
@@ -4461,21 +4461,6 @@
 			},
 			{
 				"sectionNotes": [
-					[
-						106540,
-						0,
-						100
-					],
-					[
-						106792.5,
-						3,
-						50
-					],
-					[
-						107052.5,
-						1,
-						0
-					],
 					[
 						107800,
 						0,

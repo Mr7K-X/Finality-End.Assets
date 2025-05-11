@@ -131,6 +131,14 @@ function onStepHit()
     end
 end
 
+function onCreatePost()
+    loadGraphic("healthBar.bg", 'bars/bbf/stena')
+    loadGraphic("healthBar.leftBar", 'bars/bbf/bel')
+    loadGraphic("healthBar.rightBar", 'bars/bbf/bel')
+    setProperty("healthBar.barHeight", 300)
+    setProperty("healthBar.barWidth", 609)
+    setProperty("healthBar.y", (downscroll and -70 or 500))
+end
 function onUpdatePost(elapsed)
     setProperty('iconP1.x', getMidpointX('healthBar')+228); setProperty('iconP2.x', getMidpointX('healthBar')-372)
 end

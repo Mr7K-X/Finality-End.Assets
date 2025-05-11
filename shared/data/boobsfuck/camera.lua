@@ -24,6 +24,10 @@ end
 
 function onSongStart()
 	doTweenAlpha('fadeBlack', 'blackScreen', 0, 6, 'linear')
+end
+
+function onSongStart()
+	doTweenAlpha('fadeBlack', 'blackScreen', 0, 6, 'linear')
 
 	makeLuaSprite('blackFlash', '', 0, 0)
 	makeGraphic('blackFlash', 1280, 720, '000000')
@@ -32,8 +36,13 @@ function onSongStart()
 	addLuaSprite('blackFlash', true)
 end
 
+function onStepHit()
 
 
+    if curStep == 1240 then
+       doTweenAlpha('fadeBlack', 'blackScreen', 1, 0.4, 'linear')
+    end
+ end
 function triggerBlackFlash(duration)
 
 	setProperty('blackFlash.alpha', 1)
