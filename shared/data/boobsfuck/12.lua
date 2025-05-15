@@ -4,7 +4,7 @@ function onCreate()
         font = "Blackcraft.ttf",
         timerPosition = {x = getProperty('healthBar.x') + getProperty('healthBar.width') + 20, y = getProperty('healthBar.y') - 15},
         ratingPosition = {x = getProperty('healthBar.x') - 420, y = getProperty('healthBar.y') - 15},
-        textSize = 35,
+        textSize = 25,
         textColor = "FFFFFF",
         borderColor = "000000",
         borderSize = 1

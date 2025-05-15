@@ -35,6 +35,12 @@ function onCreate()
     screenCenter('4real')
     addLuaSprite('4real', true)
     setProperty('4real.visible', true)
+
+    makeLuaSprite('4real1', 'bgsongs/bbsfc/4realSprite2')
+    setObjectCamera('4real1', 'other')
+    screenCenter('4real1')
+    addLuaSprite('4real1', true)
+
 end
 function onUpdate(elapsed)
     if shadersEnabled then
@@ -50,5 +56,18 @@ function onDestroy()
             game.camGame.setFilters([]);
             game.camHUD.setFilters([]);
         ]])
+    end
+end
+
+function onStepHit()
+    if curStep == 1 then
+
+        doTweenAlpha('4real1', '4real1', 0, 0.1, 'linear')
+
+    end
+     if curStep == 1243 then
+
+        doTweenAlpha('4real1', '4real1', 1, 1, 'linear')
+
     end
 end

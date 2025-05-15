@@ -6,8 +6,8 @@ local cam,distance
 -- settings is Global!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 settings = {
     on = true, -- script status
-    offset = 20, -- camera distance
-    speed = 0.6 -- camera speed
+    offset = 50, -- camera distance
+    speed = 3 -- camera speed
 }
 
 function onUpdatePost(e)

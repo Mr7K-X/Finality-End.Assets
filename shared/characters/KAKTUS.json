@@ -1,48 +1,59 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				100,
-				52
-			],
 			"loop": false,
+			"offsets": [
+				-112,
+				-454
+			],
+			"anim": "idle",
 			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"name": "kaktus",
+			"indices": []
 		},
 		{
-			"offsets": [
-				68,
-				248
-			],
 			"loop": false,
+			"offsets": [
+				37,
+				168
+			],
+			"anim": "transform",
 			"fps": 24,
+			"name": "transform",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-112,
+				-454
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 24,
+			"name": "kaktus",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-18,
-				166
-			],
 			"loop": false,
+			"offsets": [
+				-112,
+				-454
+			],
+			"anim": "singDOWN",
 			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"name": "kaktus",
+			"indices": []
 		},
 		{
-			"offsets": [
-				198,
-				166
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-112,
+				-454
+			],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 24,
+			"name": "kaktus",
+			"indices": []
 		},
 		{
 			"offsets": [
@@ -51,20 +62,9 @@
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "idle",
+			"anim": "singRIGHT",
 			"loop": false,
 			"name": "kaktus"
-		},
-		{
-			"offsets": [
-				37,
-				168
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "transform",
-			"loop": false,
-			"name": "transform"
 		}
 	],
 	"vocals_file": "",
