@@ -1,4 +1,0 @@
-ignoreNote = true
-lowPriority = true
-texture = "noteSkins/Jumpscare"
-rgbShader.enabled = false
